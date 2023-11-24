@@ -1,0 +1,84 @@
+.Nav-main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 1%;
+    background-image: url(../../images/background.png);
+    gap: 30px 30px;
+    background-color: #1F1F29;
+    height: 100vh;
+}
+.Nav-main .main-container{
+    display: flex;
+    justify-content: space-between;
+}
+.shop-btn{
+    width: 105px;
+    height: 35px;
+    border-radius: 14px;
+    border: none;
+    background-color: aqua;
+}
+.last-buttons{
+    display: flex;
+
+}
+.nav-btn-1{
+    width: 105px;
+    height: 35px;
+    border-radius: 14px;
+    border: none;
+    background-color: aqua;
+}
+.nav-btn{
+    width: 105px;
+    height: 35px;
+    border-radius: 14px;
+    border: none;
+    background-color: aqua;
+}
+.nav-text{
+    color: aliceblue;
+    font-size: 2rem;
+}
+.last-buttons{
+    display: flex;
+    gap: 50px;
+}
+
+/* Responsive Part  */
+@media only screen and (max-width: 1065px) {
+    .shop-btn{
+        display: none;
+    }
+    .nav-text{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 1.5rem;
+        line-height: .2rem;
+        margin-top: 100px;
+        /* border: 2px solid red; */
+    }
+    .last-buttons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+        flex-direction: column;
+
+        /* border: 2px solid red; */
+    }
+    .nav-btn-1{
+        width: 150px;
+        font-size: 20px;
+    }
+    .nav-btn{
+        font-size: 20px;
+    }
+  }
+  @media only screen and (max-width: 300px){
+    .nav-text{
+        font-size: 1rem;
+    }
+  }

@@ -1,0 +1,73 @@
+.maincontainer {
+  background-image: url(../../images/bgimg.png);
+  height: 120vh;
+  background-color: #1f1f29;
+}
+.towImages {
+  display: flex;
+  gap: 12%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.towImages button{
+    border: none;
+    width: 300px;
+    height: 90vh;
+    background-color: transparent;
+}
+.btn-cs-go {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../../images/Rectangle\ 6.png);
+  margin-top: 100px;
+}
+.btn-content { 
+  width: 340px;
+  height: 567px;
+  flex-shrink: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../../images/Rectangle\ 5.png);
+  margin-top: 100px;
+  
+}
+.Main-text{
+  font-size: 2rem;
+  color: aliceblue;
+  /* margin-top: 20px; */
+  margin-left:15px;
+}
+
+
+
+/* Responsive Part  */
+
+@media only screen and (max-width:1065px){
+  .maincontainer{
+    height: 220vh;
+    /* background-repeat: no-repeat;
+    background-color: transparent; */
+  }
+  /* .towImages{
+    width: 50%;
+  }
+  .towImages button{
+    width: 100%;
+  } */
+  
+}
+
+@media only screen and (max-width:400px){
+  .maincontainer .towImages button{
+   width: 90%;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+  }
+.maincontainer .towImages .btn-cs-go{
+  margin-top: 50px;
+}
+}
+
+

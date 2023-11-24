@@ -1,0 +1,81 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.main-container-csgo{
+  display: flex;
+  background-color: #1f1f29;
+  gap: 7px;
+}
+.csgo-tm{
+    color: aliceblue;
+    background-color: #1f1f29;
+    height: 20vh;
+}
+.csgo-tm h3{
+    color: aliceblue;
+    background-color: #1f1f29;
+    text-align: center;
+    font-size: 3rem;
+}
+.csgo-tm hr{
+    width: 50%;
+
+    color: aliceblue;
+    background-color: #1f1f29;
+}
+.img-part{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f1f29;
+}
+.cc{
+    text-align: center;
+    font-size: 3rem;
+
+    color: aliceblue;
+
+    background-color: #1f1f29;
+}
+.contact{
+    text-align: center; 
+    font-size: 3rem;
+    height: 90vh;
+
+    color: aliceblue;
+
+    background-color: #13131A;
+}
+.contact p{
+    margin-top: 70px;
+}
+.link{
+    font-size: 2rem;
+
+
+    color: aliceblue;
+
+    background-color: #13131A;
+}
+
+
+
+
+/* Responsive part  */
+@media only screen and (max-width: 740px) {
+  .main-container-csgo {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .main-container-csgo img{
+    width: 50%;
+    margin-top: 50px;
+  }
+}
